@@ -1,0 +1,43 @@
+body{
+  background-color: #cccccc !important;
+}
+
+main{
+  background-color: #bbbbbb !important;
+}
+
+.card{
+  height: 100%;
+}
+
+.card-block{
+  margin: 10px;
+}
+
+#my_card{
+  margin: 20px 0px 10px 0px;
+}
+
+#big_card{
+  width: 100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.nav-link{
+  color: #4d4d4d;
+}
+
+.nav-link:hover,
+.nav-link:active{
+    color: #333333;
+}
+
+.footer{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 12px;
+  background-color: #f2f2f2;
+}

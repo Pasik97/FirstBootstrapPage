@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<htm lang="en">
+  <head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>First Bootstrap page</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/fontello.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand mr-auto" href="#"><i class="icon-apple"></i>Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav flex-row ml-md-auto d-md-flex justify-content-around">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#new_section">iPhone</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Other</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#myTab">Mac</a>
+                <a class="dropdown-item" href="#myTab">iPad</a>
+                <a class="dropdown-item" href="#myTab">Watch</a>
+              </div>
+            </li>
+            <li>
+              <a class="nav-link" href="#last_section">Opinion</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="col-md-10 mx-auto">
+      <div class="row">
+        <div>
+
+          <section id="first_section">
+            <div id="my_carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#my_carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#my_carousel" data-slide-to="1"></li>
+                <li data-target="#my_carousel" data-slide-to="2"></li>
+              </ol>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/11.jpg"/>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>MacBook Pro</h5>
+                    <p>MacBook Pro</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/22.jpg"/>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>iPad Pro</h5>
+                    <p>iPad Pro</p>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/33.jpg"/>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Apple Watch</h5>
+                    <p>Apple Watch</p>
+                  </div>
+                </div>
+              </div>
+
+              <a class="carousel-control-prev" href="#my_carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Prev</span>
+              </a>
+              <a class="carousel-control-next" href="#my_carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </section>
+
+          <section id="new_section" class="container-fluid">
+            <div class="card-group">
+              <div id="my_card" class="row justify-content-center">
+
+                <div class="col-md-4 col-sm-6 mb-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="images/1.jpeg" alt="Alternatywny opis obrazka">
+                    <div class="card-block">
+                      <h4 class="card-title">iPhone X</h4>
+                      <p class="card-text">Premiera: 12 września 2017r.</br>Dostępne kolory: srebrny, gwiezdna szarość.</p>
+
+                      <div class="text-center">
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#iPhoneX">
+                          Więcej
+                        </button>
+                          <div class="modal" id="iPhoneX" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">W skrócie</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p class="text-left"> Otrzymał on wyświetlacz o charakterystycznym kształcie, zwany Super Retina Display. Wykonano go w technologii OLED, ekran mierzy 5,8 cala i ma rozdzielczość 2436x1125 pikseli, co daje imponujący współczynnik zagęszczenia, 458 ppi. Wyświetlacz wyposażono w panel dotykowy 3D Touch, a także technologie Dolby Vision i HDR10. Wyświetlacz osiąga imponujący kontrast (zapewne dynamiczny) - 1000000:1. iPhone X został wyposażony (podobnie, jak iPhone 8 Plus) w podwójny aparat fotograficzny. Ma on matryce o rozdzielczościach 12 megapikseli, obie z optyczną stabilizacją obrazu. Obiektywy mają przysłony o wielkości f/1.8 i f/2.4, a aparat wspiera czteroczęściowa dioda LED.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-2">
+                  <div class="card">
+                    <img class="card-img-top img-fluid" src="images/2.jpg" alt="iPhone8">
+                    <div class="card-block">
+                      <h4 class="card-title">iPhone 8</h4>
+                      <p class="card-text">Premiera: 22 września 2017r.</br>Dostępne kolory: srebrny, złoty, gwiezdna szarość, (Product)red.</p>
+                      <div class="text-center">
+
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#iPhone8">
+                          Więcej
+                        </button>
+                          <div class="modal" id="iPhone8" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">W skrócie</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p class="text-left">Apple ma obecnie trzy najnowsze smartfony w swojej ofercie, a iPhone 8 jest najmniejszym z nich. Ma ten sam procesor i większość funkcji co iPhone 8 Plus i iPhone X. Różni się mniejszym ekranem, baterią i tym, że ma pojedynczy aparat z tyłu zamiast podwójnego. Tym razem mamy do czynienia z limitowaną wersją czerwoną - Product RED. Są to produkty prezentowane raz w roku, mniej więcej w połowie pomiędzy prezentacją ostatnich i następnych model smartfonów Apple i część zysków ze sprzedaży wspiera walkę z HIV/AIDS. Jest to moim zdaniem najładniejszy kolor iPhone’a jaki jest dostępny, zwłaszcza, że w najnowszym modelu Apple połączyło kolor czerwony z czarnym frontem, który w poprzedniej edycji był biały.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 mb-2">
+                  <div id="last_card" class="card">
+                    <img class="card-img-top img-fluid" src="images/3.jpg" alt="iPhone7">
+                    <div class="card-block">
+                      <h4 class="card-title">iPhone 7</h4>
+                      <p class="card-text">Premiera: 16 września 2016r.</br>Dostępne kolory: onyks, czarny, srebrny, złoty, różowe złoto.</p>
+                      <div class="text-center">
+
+                        <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#iPhone7">
+                          Więcej
+                        </button>
+                          <div class="modal" id="iPhone7" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">W skrócie</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <p class="text-left">iPhone 7 jest szybszy, ma lepszy aparat, dwa razy więcej pamięci i bardziej żywe kolory na ekranie. Niektórzy mogą być jednak zniechęceni przez małe, irytujące problemy, których nie było w poprzednim iPhone’ie.</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="big_card" class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#mac" role="tab" aria-controls="home" aria-selected="true">Mac</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#ipad" role="tab" aria-controls="profile" aria-selected="false">iPad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#watch" role="tab" aria-controls="contact" aria-selected="false">Watch</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="card-body">
+                <div class="tab-content" id="myTabContent">
+
+                  <div class="tab-pane fade show active" id="mac" role="tabpanel" aria-labelledby="home-tab">
+                    <img class="w-50" src="images/11.jpg"/>
+                    <p class="pt-2">Macintosh, później jako Mac – seria komputerów osobistych produkowanych przez Apple, która jest projektem zastępującym Apple 2, tworzonym równolegle i wewnętrznie konkurującym z Apple Lisa.</p>
+                  </div>
+
+                  <div class="tab-pane fade" id="ipad" role="tabpanel" aria-labelledby="profile-tab">
+                    <p>Tablet przedsiębiorstwa Apple. Ma 9,7-calowy ekran dotykowy z technologią Multi-Touch oraz m.in. możliwość oglądania filmów i zdjęć. Ma przeglądarkę internetową oraz jest kompatybilny z aplikacjami App Store dla iPhone’ów oraz iPodów.</p>
+                    <img class="w-50" src="images/22.jpg"/>
+                    </p>Przeglądarka internetowa Safari dołączona do iPada nie obsługuje technologii Flash. Urządzenie waży 680 gramów (wersja 3G waży 730 g), mieści się zatem między cięższymi smartfonami oraz lżejszymi laptopami.</p>
+                  </div>
+
+                  <div class="tab-pane fade" id="watch" role="tabpanel" aria-labelledby="contact-tab">
+                    <p>Apple Watch – smartwatch stworzony przez firmę Apple i wypuszczony do sprzedaży 24 kwietnia 2015 roku. Polska premiera urządzenia odbyła się 9 października 2015 roku. Posiada dedykowany system operacyjny WatchOS, który bazuje na systemie iOS stosowanym w iPhone, iPod oraz iPad. Pozwala, między innymi, na wyświetlanie komunikatów z telefonu, odbieranie przychodzących rozmów, kontrolowanie muzyki czy aparatu.</p>
+                    <img class=" w-50" src="images/33.jpg"/>
+                    <p class="pt-3">W App Store można znaleźć aplikacje do pobrania na Apple Watch, które rozszerzają jego funkcjonalność. Jest kompatybilny z urządzeniami iPhone od modelu iPhone 5 z oprogramowaniem powyżej wersji iOS 8, z którymi łączy się za pomocą Wi-Fi lub Bluetooth.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section id="last_section" class="container-fluid">
+            <form>
+              <div class="form-group">
+                <label for="przykladowyEmail">Adres Email</label>
+                <input type="email" class="form-control" id="przykladowyEmail" placeholder="mail@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="przykladowaTextarea">Czy podobała Ci się moja strona?</label>
+                <textarea class="form-control" id="przykladowaTextarea" rows="3"></textarea>
+              </div>
+              
+               <button type="submit" class="btn btn-secondary mb-2">Wyślij opinie</button>
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright Konrad Pasik</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
